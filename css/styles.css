@@ -1,0 +1,183 @@
+body{
+  font-family:"Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {font-family:"Montserrat";
+}
+
+p{
+    color:#8f8f8f;
+    font-size: .94rem;
+}
+
+.heading-big{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size:3rem;
+  line-height: 1.3;
+}
+
+.section-heading{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.cta-heading{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.card-heading{
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding: 2% 15% 4%;
+}
+/* Navigation Bar */
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family:"Montserrat";
+  font-weight: 300;
+}
+
+/* Title Section */
+#title{background-color:#ff4c68;
+color: #fff;
+text-align: left;
+}
+
+.title-img {
+    transform: rotate(25deg);
+    width: 50%;
+    position: absolute;
+    right: 30%
+    }
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+  font-size: 1rem;
+}
+
+/* Features */
+#features{
+  padding-top: 3%;
+  padding-bottom: 3%;
+position: relative;
+background-color: white;
+}
+
+.feature-img{
+  font-size: 4rem;
+  color: #ef8172;
+margin-bottom: 1rem;
+}
+
+.feature-img:hover{
+  color: #ff4c68;
+}
+
+.feature-heading{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.feature-body{
+    padding: 1% 15%;
+
+}
+
+/* Testimonials */
+#testimonials{
+      background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+/* Press Section */
+#press{
+  background-color:  #ef8172;
+  }
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 75px;
+}
+
+.price-text{
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-header{
+  background-color: #ef8172;
+  color: white;
+}
+
+/* CTA */
+
+#cta{
+  background-color: #ff4c68;
+padding: 5% 20% 3%;
+  color: white;
+}
+
+/* Footer Section */
+#footer{
+  padding: 2% 15%;
+  }
+
+.contact-logo{
+  margin: 1.2%;
+}
+
+@media (max-width: 1028px){
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    }
+
+      #title{
+        text-align: center;
+      }
+  }
